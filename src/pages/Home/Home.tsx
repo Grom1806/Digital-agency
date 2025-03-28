@@ -1,5 +1,3 @@
-import Header from '@widgets/Header/Header'
-
 const Home = () => {
 	return (
 		<div>
