@@ -1,0 +1,89 @@
+// 1. Убираем отступы и границы по умолчанию
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// 2. Обнуляем стили шрифтов
+html {
+  font-size: 16px; // Базовый размер
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+// 3. Сброс для body
+body {
+  font-family: sans-serif;
+  background: #1f1f1f;
+  color: white;
+  min-height: 100vh;
+  font-smooth: always;
+}
+
+// 4. Обнуляем стили ссылок
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+// 5. Убираем стили списков
+ul,
+ol {
+  list-style: none;
+}
+
+// 6. Кнопки и инпуты без стандартных стилей
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+// 7. Делаем изображения адаптивными
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// 8. Убираем стандартные outline'ы у кнопок
+button {
+  cursor: pointer;
+}
+
+// 9. Убираем дефолтные стили таблиц
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// 10. Убираем стандартные стили заголовков
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+// 11. Убираем стандартные стили цитат
+blockquote,
+q {
+  quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+.wrapper {
+  max-width: 100vw;
+}

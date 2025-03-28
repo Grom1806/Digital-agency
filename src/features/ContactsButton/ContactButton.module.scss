@@ -1,0 +1,20 @@
+.button {
+  width: 135px;
+  height: 59px;
+  background-color: #9EFF00;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #85DB00; // Затемняем цвет
+    box-shadow: 0 4px 10px rgba(158, 255, 0, 0.6); // Добавляем свечение
+    transform: scale(1.05); // Небольшое увеличение
+  }
+
+  &:active {
+    transform: scale(0.98); // Эффект нажатия
+    box-shadow: 0 2px 5px rgba(158, 255, 0, 0.4);
+  }
+}
