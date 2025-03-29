@@ -33,7 +33,7 @@
       "@ui/*": ["src/ui/*"],
       "@store/*": ["src/store/*"],
       "@utils/*": ["src/utils/*"],
-      "@shared/*": ["src/shared/assets/*"]
+      "@shared/*": ["src/shared/*"]
     }
   },
   "include": ["src", "src/**/*.ts", "src/**/*.tsx"],

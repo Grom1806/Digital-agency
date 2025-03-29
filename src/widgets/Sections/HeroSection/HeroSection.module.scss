@@ -1,0 +1,40 @@
+.heroSection {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+	background-image: url('../../../shared/assets/Abstract\ Design.png');
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+  & .sectionWrapper {
+		margin-top: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  & .title {
+    font-size: 68px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  & .subtitle {
+    font-size: 22px;
+    color: #98989a;
+    margin-bottom: 50px;
+    text-align: center;
+		background-color:  rgba(24, 24, 24, 0.2);
+		backdrop-filter: blur(5px);
+		border-radius: 8px;
+		border: 0.5px solid #262626;
+		padding: 24px 40px;
+    & span {
+      background-color: #262626;
+      padding: 12px 14px;
+      border-radius: 8px;
+      color: white;
+    }
+  }
+	& .buttons {
+		display: flex;
+		gap: 20px;
+	}
+}

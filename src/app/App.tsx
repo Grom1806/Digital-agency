@@ -1,12 +1,10 @@
-import Home from '@pages/Home/Home';
-import Header from '@widgets/Header/Header';
+import Routing from './routes/Routes';
 
 function App() {
   return (
     <div>
       <div className="wrapper">
-        <Header />
-        <Home />
+        <Routing />
       </div>
     </div>
   );

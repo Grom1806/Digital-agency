@@ -1,0 +1,45 @@
+.button {
+  padding: 14px 20px;
+  background-color: #9EFF00;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #85DB00; // Затемняем цвет
+    box-shadow: 0 4px 10px rgba(158, 255, 0, 0.6); // Добавляем свечение
+    transform: scale(1.05); // Небольшое увеличение
+  }
+
+  &:active {
+    transform: scale(0.98); // Эффект нажатия
+    box-shadow: 0 2px 5px rgba(158, 255, 0, 0.4);
+  }
+}
+
+.blackBarry {
+  padding: 14px 20px;
+  background-color: #242424d4;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+
+  // Добавляем тень для объёма
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: #2e2e2ee0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #1c1c1c;
+  }
+}
